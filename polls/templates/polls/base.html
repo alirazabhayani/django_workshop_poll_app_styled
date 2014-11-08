@@ -1,6 +1,7 @@
 <html>
 <head>
-<link href="http://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+<link href="http://bootswatch.com/cosmo/bootstrap.min.css" rel="stylesheet">
 <title>Django Polls Application</title>
 <style>
 #content{
@@ -31,4 +32,6 @@
     </div>
 
 </body>
+{% block extra_script %}
+{% endblock %}
 </html>
